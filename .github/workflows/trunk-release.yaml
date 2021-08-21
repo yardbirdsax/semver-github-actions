@@ -5,6 +5,8 @@ on:
       - trunk
     paths-ignore:
       - ".github/**"
+      - "README.md"
+      - "LICENSE"
 jobs:
   generateVersion:
     name: "Generate release"
